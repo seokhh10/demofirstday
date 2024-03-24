@@ -4,61 +4,61 @@
     margin: 0;
 }
 
-
 header {
     padding: 35px;
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    border-bottom: 10px solid rgb(7, 217, 245) ;
+    border-bottom: 10px solid rgb(7, 217, 245);
     text-align: right;
-    
 }
 
 li {
     display: inline;
     margin-right: 30px;
+    padding-left: 15px; /* Add left padding to create space between links and edge of header */
 }
 
-p {
-   text-align: center;
-   font-size: 50px;
-   }
+h1, section {
+    text-align: center;
+    font-size: 24px; /* Increase font size for better readability */
+}
 
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 40px;
-  }
+}
 
 h2, form {
     text-align: center;
 }
 
+/* Remove or modify .div class styling */
+/*
 .div { 
     width: 100px;
     height: 70px;
-   background-color: gainsboro;
+    background-color: gainsboro;
+}
+*/
+
+button, input[type="submit"] { /* Combine button and input[type="submit"] selectors */
+    background-color: #838683;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-button { 
-   background-color: #838683;
-   color: white;
-   padding: 12px 20px;
-   border: none;
-   border-radius: 4px;
-   cursor: pointer;
-}
-
-input[button=Submit]:hover {
+button:hover, input[type="submit"]:hover { /* Combine button and input[type="submit"] hover effects */
     background-color: bisque;
-
 }
+
 footer {
-    background-color:  #2a607c;
+    background-color: #2a607c;
     text-align: center;
-    width: auto;
     height: 50px;
-    border-bottom: 5px solid rgb(7, 217, 245) ;
+    border-bottom: 5px solid rgb(7, 217, 245);
 }
-
