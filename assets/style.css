@@ -21,27 +21,65 @@ li {
 
 h1, section {
     text-align: center;
-    font-size: 24px; /* Increase font size for better readability */
+    font-size: 40px; /* Increase font size for better readability */
 }
 
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 40px;
-}
+
 
 h2, form {
     text-align: center;
 }
 
-/* Remove or modify .div class styling */
-/*
-.div { 
-    width: 100px;
-    height: 70px;
-    background-color: gainsboro;
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    margin: 20px auto; /* Center the container horizontally and add some space around it */
+    max-width:  /* Limit the maximum width of the container for better readability */
 }
-*/
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.container form {
+    text-align: center;
+}
+
+.container label {
+    font-size: 20px;
+    display: block; /* Make labels display as block elements for better alignment */
+    margin-bottom: 10px; /* Add some space below each label */
+}
+
+.container input[type="text"] {
+    width: 20%; /* Make text input fields fill the container width */
+    padding: 10px; /* Add some padding for better appearance */
+    margin-bottom: 10px; /* Add some space below each input field */
+}
+
+.container button {
+    background-color: #2a607c; /* Change button background color to match the header */
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px; /* Increase font size for better visibility */
+}
+
+.container button:hover {
+    background-color: #1c445c; /* Darken button color on hover */
+}
+
+footer {
+    background-color: #2a607c;
+    text-align: center;
+    height: 50px;
+    border-bottom: 5px solid rgb(7, 217, 245);
+}
+
 
 button, input[type="submit"] { /* Combine button and input[type="submit"] selectors */
     background-color: #838683;
