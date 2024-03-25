@@ -21,7 +21,7 @@ li {
 
 h1, section {
     text-align: center;
-    font-size: 40px; /* Increase font size for better readability */
+    font-size: 40px; 
 }
 
 
@@ -35,7 +35,7 @@ h2, form {
     background-color: #f2f2f2;
     padding: 5px;
     margin: 20px auto; /* Center the container horizontally and add some space around it */
-    max-width:  /* Limit the maximum width of the container for better readability */
+    
 }
 
 .container h2 {
