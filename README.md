@@ -13,6 +13,7 @@ This project is a simple website featuring information about various links, a br
 
 The website consists of a header, a section with a title, image, and description, a contact form within a container, and a footer.
 
+- Screenshot [My New Website](/assets/images/New%20Website.png)
 ## Links
 
 The header contains links to the following external websites:
